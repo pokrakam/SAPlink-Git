@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSAPLINK_CHECKPOINT_GROUP</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>SAPlink - Checkpoint group</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_CHECKPOINT_GROUP</CLSNAME>
+     <CMPNAME>CHECK_AUTHORITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Authorization check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_CHECKPOINT_GROUP</CLSNAME>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create checkpoint group</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_CHECKPOINT_GROUP</CLSNAME>
+     <CMPNAME>DEQUEUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Enqueue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_CHECKPOINT_GROUP</CLSNAME>
+     <CMPNAME>ENQUEUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Enqueue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_CHECKPOINT_GROUP</CLSNAME>
+     <CMPNAME>GET_REF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get acid object reference</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

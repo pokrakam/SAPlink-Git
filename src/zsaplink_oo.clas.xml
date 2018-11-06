@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSAPLINK_OO</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZSAPLINK - OO class for CLAS and INTF plugin</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSABSTRCT>X</CLSABSTRCT>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>CREATE_ALIAS_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create alias for method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>CREATE_CLSDEFERRD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create class deferred</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>CREATE_INTDEFERRD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create interface deferred</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>CREATE_OTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get an OTR object from XML node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>CREATE_TYPEPUSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create type pool usage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>GET_ALIAS_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get alias for method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>GET_CLSDEFERRD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get class deferred</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>GET_INTDEFERRD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get interface deferred</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>GET_OTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates an XML node from an OTR object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_OO</CLSNAME>
+     <CMPNAME>GET_TYPEPUSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get type pool usage</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

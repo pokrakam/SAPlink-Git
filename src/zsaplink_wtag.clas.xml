@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSAPLINK_WTAG</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>SAPlink - BSP plugin</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_WTAG</CLSNAME>
+     <CMPNAME>ACCESS_PERMISSION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Call RS_ACCESS_PERMISSION</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_WTAG</CLSNAME>
+     <CMPNAME>CORR_INSERT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Insert Correction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_WTAG</CLSNAME>
+     <CMPNAME>DELETE_FROM_WORKING_AREA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete BSP Extension from Worklist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_WTAG</CLSNAME>
+     <CMPNAME>UPDATE_OBJECT_LISTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Updating Object Lists</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_WTAG</CLSNAME>
+     <CMPNAME>WTAG_GETSTRUCTUREFROMATTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Updates a structure with node attributes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_WTAG</CLSNAME>
+     <CMPNAME>WTAG_SETATTRIBUTESFROMSTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates an XML Attribute list from any structure</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

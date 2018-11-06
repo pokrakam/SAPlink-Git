@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>SapLink Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>EXPORT_ATTRIBUTES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds attributes to the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>EXPORT_EVENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds events to the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>EXPORT_INTERFACES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds included interfaces to the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>EXPORT_METHODS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds methods to the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>EXPORT_TYPEGROUPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds typegroups to the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>EXPORT_TYPES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adds types to the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>IMPORT_ATTRIBUTES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Imports attributes from the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>IMPORT_EVENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Imports events from the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>IMPORT_INTERFACES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Imports included interfaces from the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>IMPORT_METHODS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Imports methods from the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_INTERFACE</CLSNAME>
+     <CMPNAME>IMPORT_TYPES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Imports types and typegroups from the xml document</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
