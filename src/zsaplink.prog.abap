@@ -36,7 +36,7 @@
 *| project wiki:     https://wiki.sdn.sap.com/wiki/display/ABAP/SAPlink|
 *\---------------------------------------------------------------------/
 REPORT  zsaplink.
-class zsaplink DEFINITION load. " Convenience for older SAP-Releases
+CLASS zsaplink DEFINITION LOAD. " Convenience for older SAP-Releases
 
 */------------------------DATA----------------------------\
 TABLES: sscrfields, e071, e07t.
@@ -161,9 +161,9 @@ FIELD-SYMBOLS: <obj> LIKE LINE OF objects_package.
 
 
 SELECTION-SCREEN BEGIN OF TABBED BLOCK tabb FOR 20 LINES.
-SELECTION-SCREEN TAB (17) text-tb2 USER-COMMAND nugg
+SELECTION-SCREEN TAB (17) TEXT-tb2 USER-COMMAND nugg
                      DEFAULT SCREEN 120.
-SELECTION-SCREEN TAB (17) text-tb1 USER-COMMAND obj
+SELECTION-SCREEN TAB (17) TEXT-tb1 USER-COMMAND obj
                      DEFAULT SCREEN 110.
 SELECTION-SCREEN END OF BLOCK tabb.
 SELECTION-SCREEN SKIP.
@@ -173,13 +173,13 @@ SELECTION-SCREEN COMMENT /1(60) cmt_url MODIF ID ver.
 *Slinkee tab
 SELECTION-SCREEN BEGIN OF SCREEN 110 AS SUBSCREEN.
 SELECTION-SCREEN BEGIN OF BLOCK main WITH FRAME.
-SELECTION-SCREEN BEGIN OF BLOCK splk WITH FRAME TITLE text-slk.
+SELECTION-SCREEN BEGIN OF BLOCK splk WITH FRAME TITLE TEXT-slk.
 PARAMETERS import TYPE c RADIOBUTTON GROUP 2 DEFAULT 'X'
   USER-COMMAND updown.
 PARAMETERS export TYPE c RADIOBUTTON GROUP 2.
 SELECTION-SCREEN END OF BLOCK splk.
 
-SELECTION-SCREEN BEGIN OF BLOCK opt WITH FRAME TITLE text-opt.
+SELECTION-SCREEN BEGIN OF BLOCK opt WITH FRAME TITLE TEXT-opt.
 PARAMETERS filename(300) LOWER CASE TYPE c MODIF ID did.
 PARAMETERS slpkg  TYPE tadir-devclass MODIF ID did.
 PARAMETERS overwr TYPE c AS CHECKBOX MODIF ID did.
@@ -192,7 +192,7 @@ SELECTION-SCREEN END OF SCREEN 110.
 *Nugget tab
 SELECTION-SCREEN BEGIN OF SCREEN 120 AS SUBSCREEN.
 SELECTION-SCREEN BEGIN OF BLOCK main2 WITH FRAME.
-SELECTION-SCREEN BEGIN OF BLOCK splk2 WITH FRAME TITLE text-slk.
+SELECTION-SCREEN BEGIN OF BLOCK splk2 WITH FRAME TITLE TEXT-slk.
 PARAMETERS nugi TYPE c RADIOBUTTON GROUP 3 DEFAULT 'X'
   USER-COMMAND updown.
 PARAMETERS nugd TYPE c RADIOBUTTON GROUP 3.
@@ -203,7 +203,7 @@ PARAMETERS nugp TYPE c RADIOBUTTON GROUP 3.
 PARAMETERS nugr TYPE c RADIOBUTTON GROUP 3.
 SELECTION-SCREEN END OF BLOCK splk2.
 
-SELECTION-SCREEN BEGIN OF BLOCK opt2 WITH FRAME TITLE text-opt.
+SELECTION-SCREEN BEGIN OF BLOCK opt2 WITH FRAME TITLE TEXT-opt.
 PARAMETERS nuggnam(300) TYPE c MODIF ID nnm.
 PARAMETERS nplugin TYPE  ko100-object MODIF ID npg.
 PARAMETERS nobjnam(40) TYPE c MODIF ID npg.
@@ -1582,7 +1582,7 @@ FORM nugget_import .
                                               _objtype.
 
       errorflag = 'X'.
-    else.
+    ELSE.
       CONCATENATE _objtype _objname
           INTO errormsg SEPARATED BY space.
       PERFORM writemessage USING 'S' errormsg.
@@ -1814,6 +1814,8 @@ FORM nugget_add_from_transport .
     EXIT.
   ENDIF.
 
+  SORT it_requestobject.
+  DELETE ADJACENT DUPLICATES FROM it_requestobject.
   LOOP AT it_requestobject INTO wa_requestobject.
     MOVE-CORRESPONDING wa_requestobject TO packageline.
     APPEND packageline TO objects_package.
