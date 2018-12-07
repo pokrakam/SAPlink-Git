@@ -17,7 +17,8 @@
    </PROGDIR>
    <CUA>
     <ADM>
-     <ACTCODE>X</ACTCODE>
+      <ACTCODE>000001</ACTCODE>
+      <PFKCODE>000001</PFKCODE>
     </ADM>
     <STA>
      <RSMPE_STAT>
