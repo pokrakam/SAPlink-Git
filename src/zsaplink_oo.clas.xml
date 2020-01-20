@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZSAPLINK_OO</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>ZSAPLINK - OO class for CLAS and INTF plugin</DESCRIPT>
     <STATE>1</STATE>

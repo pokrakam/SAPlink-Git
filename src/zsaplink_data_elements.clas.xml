@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZSAPLINK_DATA_ELEMENTS</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>SAPlink - Data Dictionary Data Elements</DESCRIPT>
     <STATE>1</STATE>

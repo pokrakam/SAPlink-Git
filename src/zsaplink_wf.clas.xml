@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZSAPLINK_WF</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>Generic SAPLINK plugin for Workflow objects</DESCRIPT>
     <STATE>1</STATE>
