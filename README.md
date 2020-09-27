@@ -1,6 +1,6 @@
 # SAPlink-Git
 
-SAPLlink packaged for easy installation via [abapGit](https://github.com/larshp/abapgit).
+SAPlink packaged for easy installation via [abapGit](https://github.com/larshp/abapgit).
 
 Motivation: The version at [sapmentors/SAPlink](https://github.com/sapmentors/SAPlink) is just a straight migration of the original SAPlink repository into GitHub. It still requires manual download and installation of separate pieces.
 
