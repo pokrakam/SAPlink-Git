@@ -4,7 +4,7 @@ SAPlink packaged for easy installation via [abapGit](https://github.com/larshp/a
 
 Motivation: The version at [sapmentors/SAPlink](https://github.com/sapmentors/SAPlink) is just a straight migration of the original SAPlink repository into GitHub. It still requires manual download and installation of separate pieces.
 
-Use case: If you already use abapGit but still have to use nugg/slnk files, this is a quick and easy install of SAPlink with all plugins.
+Use case: If you already use abapGit but still use `.nugg` or `.slnk` files, this is a quick and easy install of SAPlink with all plugins.
 
 Even if you don't already use abapGit, you probably should :-) 
 
